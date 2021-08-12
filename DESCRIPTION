@@ -1,18 +1,25 @@
 Package: tempPackage
-Title: What the Package Does (One Line, Title Case)
+Title: Temp R Package
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
+    person(given = "Favour",
            family = "Last",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Literally nothing.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/fesedebe/tempPackage
 BugReports: https://github.com/fesedebe/tempPackage/issues
+Suggests: 
+    covr,
+    testthat
+Imports: 
+    mixOmics,
+    MASS,
+    lattice,
+    ggplot2
